@@ -1,2 +1,57 @@
-// Add custom css here or create more partials
-// and import them in all.css.scss!
+.full-w{
+	width: 100%;
+}
+body{
+	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/backgroundtexture.jpg');
+	background-repeat: repeat;	
+    box-shadow: inset 0px 0px 200px #000;	
+}
+#header{
+	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatingred.jpg');
+	background-repeat: repeat;	
+	width: 100%;
+}
+#tearright{
+    background-image: url("https://s3.amazonaws.com/myfangate.com/freshfaces/tearright.png");
+    position: absolute;
+    height: 100%;
+    width: 78px;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    opacity: 0.3;
+}
+#tearright{
+    background-image: url("https://s3.amazonaws.com/myfangate.com/freshfaces/tearright.png");
+    position: absolute;
+    background-repeat: repeat-y;
+    height: 100%;
+    width: 78px;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    opacity: 0.2;
+}
+#tearleft{
+    background-image: url("https://s3.amazonaws.com/myfangate.com/freshfaces/tearleft.png");
+    position: absolute;
+    background-repeat: repeat-y;
+    height: 100%;
+    width: 78px;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}
+#characters{
+	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatinggreen.jpg');
+	background-repeat: repeat;	
+	width: 100%;
+	img{
+		margin-top: -10%;
+		max-width: 700px;
+	}
+	.featuring{
+		margin-top: -50%;
+	}
+}

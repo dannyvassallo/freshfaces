@@ -12,9 +12,9 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= partial "partials/navbar" %>
     <%= yield %>
-
+    <div id="tearleft"></div>
+    <div id="tearright"></div>
     <!-- Javascripts -->
     <%= javascript_include_tag  "all" %>
   </body>

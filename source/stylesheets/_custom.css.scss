@@ -13,7 +13,7 @@ body{
 }
 #tearright{
     background-image: url("https://s3.amazonaws.com/myfangate.com/freshfaces/tearright.png");
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 78px;
     z-index: 999;
@@ -21,20 +21,9 @@ body{
     right: 0;
     opacity: 0.3;
 }
-#tearright{
-    background-image: url("https://s3.amazonaws.com/myfangate.com/freshfaces/tearright.png");
-    position: absolute;
-    background-repeat: repeat-y;
-    height: 100%;
-    width: 78px;
-    z-index: 999;
-    top: 0;
-    right: 0;
-    opacity: 0.2;
-}
 #tearleft{
     background-image: url("https://s3.amazonaws.com/myfangate.com/freshfaces/tearleft.png");
-    position: absolute;
+    position: fixed;
     background-repeat: repeat-y;
     height: 100%;
     width: 78px;
@@ -62,4 +51,46 @@ body{
 	max-width: 200px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+// tourdates
+#tourdates-head{
+	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatingred.jpg');
+	background-repeat: repeat; 
+	width: 100%;		
+	position: relative;		
+	h1{
+    font-size: 60px;
+    color: white;
+		text-transform: uppercase;
+	}
+}
+#dates{
+  width: 100%;  
+  .listing{
+    margin: 75px auto; 
+  }
+  ul{
+    padding: 0 10px 0 10px
+  }
+  li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom:1px solid #fff;
+    div{
+      height: 40px;
+    }
+    .date{
+      float: left;
+      padding: 6px 12px;      
+      font-size: 18px;
+      color: white;
+    }
+    .ticket{
+      float: right;      
+      color: white;
+      background-color: red;
+      border-radius: 0;
+    }
+  }
 }

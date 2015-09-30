@@ -4,5 +4,6 @@
 @import "bootstrap-sass-variables";
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "font-awesome";
+@import "vendor/dcsns_wall";
+@import "social-wall-overrides";
 @import "custom";

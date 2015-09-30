@@ -4,7 +4,8 @@
 body{
 	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/backgroundtexture.jpg');
 	background-repeat: repeat;	
-  box-shadow: inset 0px 0px 600px #000;	
+  box-shadow: inset 0px 0px 600px #000;
+  overflow-x: hidden;	
   h1,h2,h3,h4,h5{
     font-family: 'nunanunong_demoregular';
     color: #cecec0;
@@ -152,6 +153,11 @@ body{
     font-size: 50px;    
   }
 }
+.album{
+  position: relative;
+  z-index: 999999999999999;
+  opacity: 0.7;
+}
 .album-wrap{
   background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatinggreen.jpg');
   background-repeat: repeat;  
@@ -184,4 +190,9 @@ body{
     position: relative;
     z-index: 999999999; 
     opacity: 0.8;   
+}
+@media(max-width: 480px){
+  #contest h1, #social h1{
+    font-size: 30px;
+  }
 }

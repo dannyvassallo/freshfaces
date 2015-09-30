@@ -4,7 +4,18 @@
 body{
 	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/backgroundtexture.jpg');
 	background-repeat: repeat;	
-    box-shadow: inset 0px 0px 200px #000;	
+  box-shadow: inset 0px 0px 600px #000;	
+  h1,h2,h3,h4,h5{
+    font-family: 'nunanunong_demoregular';
+    color: #cecec0;
+    text-shadow: 6px 4px 0px #000 !important;    
+  }
+  h1{
+    font-size: 60px;
+  }
+  p{
+    color: black;
+  }
 }
 #header{
 	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatingred.jpg');
@@ -33,7 +44,7 @@ body{
     opacity: 0.2;
 }
 #characters{
-	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatinggreen.jpg');
+	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/blood.png');
 	background-repeat: repeat;	
 	width: 100%;
 	img{
@@ -43,6 +54,12 @@ body{
 	.featuring{
 		margin-top: -50%;
 	}
+}
+#blood{
+  background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatinggreen.jpg');
+  background-repeat: repeat;  
+  width: 100%;
+  height: 100%; 
 }
 .album{
 	margin-top: 10px;
@@ -58,11 +75,6 @@ body{
 	background-repeat: repeat; 
 	width: 100%;		
 	position: relative;		
-	h1{
-    font-size: 60px;
-    color: white;
-		text-transform: uppercase;
-	}
 }
 #dates{
   width: 100%;  
@@ -76,7 +88,7 @@ body{
     list-style: none;
     text-align: center;
     margin-bottom: 10px;
-    border-bottom:1px solid #fff;
+    border-bottom:1px solid #000;
     div{
       height: 40px;
     }
@@ -84,7 +96,7 @@ body{
       float: left;
       padding: 6px 12px;      
       font-size: 18px;
-      color: white;
+      color: black;
     }
     .ticket{
       float: right;      
@@ -92,5 +104,38 @@ body{
       background-color: red;
       border-radius: 0;
     }
+  }
+}
+#overlay1{
+  background-image: url('https://s3.amazonaws.com/myfangate.com/getscared/concrete-wall-2.png');
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background-repeat: repeat;
+  opacity: .6;
+}
+#overlay2{
+  background-image: url('https://s3.amazonaws.com/myfangate.com/getscared/grunge-wall.png');
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9998;
+  background-repeat: repeat;
+  opacity: .4;
+  background-color: rgba(96,66,0,0.5);
+}
+#albums{
+  h1{
+    font-size: 50px;
+    color: #556354;
   }
 }

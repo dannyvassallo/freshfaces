@@ -1,2 +1,209 @@
-// Add custom css here or create more partials
-// and import them in all.css.scss!
+.full-w{
+	width: 100%;
+}
+body{
+	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/backgroundtexture.jpg');
+	background-repeat: repeat;	
+  box-shadow: inset 0px 0px 600px #000;
+  overflow-x: hidden;	
+  h1,h2,h3,h4,h5{
+    font-family: 'nunanunong_demoregular';
+    color: #cecec0;
+    text-shadow: 6px 4px 0px #000 !important;    
+  }
+  h1{
+    font-size: 60px;
+  }
+  p{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+}
+#header{
+	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatingred.jpg');
+	background-repeat: repeat;	
+	width: 100%;
+}
+#tearright{
+    background-image: url("https://s3.amazonaws.com/myfangate.com/freshfaces/tearright.png");
+    position: fixed;
+    height: 100%;
+    width: 78px;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    opacity: 0.3;
+}
+#tearleft{
+    background-image: url("https://s3.amazonaws.com/myfangate.com/freshfaces/tearleft.png");
+    position: fixed;
+    background-repeat: repeat-y;
+    height: 100%;
+    width: 78px;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}
+#characters{
+	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/blood.png');
+	background-repeat: repeat;	
+	width: 100%;
+	img{
+		margin-top: -10%;
+		max-width: 700px;
+	}
+	.featuring{
+		margin-top: -50%;
+	}
+}
+#blood{
+  background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatinggreen.jpg');
+  background-repeat: repeat;  
+  width: 100%;
+  height: 100%; 
+}
+.album{
+	margin-top: 10px;
+}
+.itunes{
+	max-width: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  position: relative;
+  z-index: 999999999;
+  opacity: 0.7;
+}
+// tourdates
+#tourdates-head{
+	background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatingred.jpg');
+	background-repeat: repeat; 
+	width: 100%;		
+	position: relative;		
+}
+#dates{
+  width: 100%;  
+  .listing{
+    margin: 75px auto; 
+  }
+  ul{
+    padding: 0 10px 0 10px
+  }
+  li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom:1px solid #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    div{
+      height: 40px;
+    }
+    .date{
+      float: left;
+      padding: 6px 12px;      
+      font-size: 18px;
+      color: black;
+    }
+    .ticket{
+      float: right;      
+      color: white;
+      background-color: rgba(186,14,16,0.7);
+      border-radius: 0;
+      font-family: 'Source Sans Pro', sans-serif;
+      z-index: 99999999;
+      position: relative;
+    }
+  }
+}
+#overlay1{
+  background-image: url('https://s3.amazonaws.com/myfangate.com/getscared/concrete-wall-2.png');
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background-repeat: repeat;
+  opacity: .6;
+}
+#overlay2{
+  background-image: url('https://s3.amazonaws.com/myfangate.com/getscared/grunge-wall.png');
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9998;
+  background-repeat: repeat;
+  opacity: .4;
+  background-color: rgba(96,66,0,0.5);
+}
+#contest{
+  h1{
+    font-size: 50px;
+    color: #556354;
+  }
+}
+#albums{
+  h1{
+    font-size: 50px;    
+  }
+}
+.album{
+  position: relative;
+  z-index: 999999999999999;
+  opacity: 0.7;
+}
+.album-wrap{
+  background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatinggreen.jpg');
+  background-repeat: repeat;  
+  width: 100%;
+  height: 100%;
+}
+#footer{
+  background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatingred.jpg');
+  background-repeat: repeat;  
+  width: 100%;
+  padding: 50px;
+}
+#social{
+  background-image: url('https://s3.amazonaws.com/myfangate.com/freshfaces/repeatinggreen.jpg');
+  background-repeat: repeat;  
+  width: 100%;
+  height: 100%;
+  h1{
+    font-size: 40px;  
+    span{
+      font-family: 'Source Sans Pro', sans-serif !important;
+    }
+  } 
+}
+#contest-widget, .select2-dropdown{
+  position: relative;
+  z-index: 999999999; 
+}
+#footer a, #social-stream{
+    position: relative;
+    z-index: 999999999; 
+    opacity: 0.8;   
+}
+@media(max-width: 480px){
+  #contest h1, #social h1{
+    font-size: 30px;
+  }
+}
+.sponsor{
+  max-height: 37px;  
+}
+#footer{
+  .img-responsive{
+    margin: 0 auto !important;;
+  }
+}
+.foot-icon{
+  padding-bottom: 10px;
+}

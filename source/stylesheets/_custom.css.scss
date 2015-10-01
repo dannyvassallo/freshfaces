@@ -148,6 +148,16 @@ body{
     color: #556354;
   }
 }
+#vip{
+  position: relative;
+  z-index: 99999999999999999;
+  h2{
+    color: rgb(182, 63, 59);
+  }
+  a{
+    text-decoration: none;
+  }
+}
 #albums{
   h1{
     font-size: 50px;    
@@ -206,4 +216,15 @@ body{
 }
 .foot-icon{
   padding-bottom: 10px;
+}
+#starburst{
+  width: 300;
+  height: 300;
+  position: fixed;
+  z-index: 9999999999999999;
+  top: 0;
+  right: 0;
+  img{
+    width: 100%;
+  }
 }
